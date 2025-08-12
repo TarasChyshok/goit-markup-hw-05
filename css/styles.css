@@ -632,6 +632,9 @@ body {
 }
 
 .modal-button-close {
+  width:24px;
+  height:24px;
+  
   background-color: #E7E9FC;
   border:  1px solid rgba(0, 0, 0, 0.1);
   border-radius:50%;
