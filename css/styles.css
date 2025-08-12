@@ -692,7 +692,7 @@ body {
 }
 
 .modal-form-div-div{
-  position:relative;
+  
 }
 
 .modal-form-label {
@@ -702,6 +702,10 @@ body {
   color:#8e8f99;
   display:block;
   margin-bottom:4px;
+}
+
+.div-for-input-and-svg{
+  position:relative;
 }
 
 .modal-form-label-input {
