@@ -38,7 +38,7 @@
               <a class="nav-link" href="">Contacts</a>
             </li>
           </ul>
-        
+        </nav>
         
             <address class="address">
               <ul class="address-list">
@@ -493,26 +493,27 @@
             <div>
               <label class="footer-div-label">
               <input class="footer-input" name="subscribe" type="email" placeholder="E-mail">
+              </label>
             </div>
             <button type="submit" class="social-subscribe-button">Subscribe
               <svg class="footer-social-subscribe-svg-use" width="24" height="24">
-                <use href="./images/icons.svg#icon-telegram"
+                <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
-          </label>
           </form>
         </div>
       </div>
     </footer>
     <div class="modal-overlay">
       <div class="modal">
-        <button class="modal-button-close" type="button" width="24px" height="24px">
+        <button class="modal-button-close" type="button">
           <svg class="modal-button-close-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-overlay-p">Leave your contacts and we will call you back</p>
-        <form class="modal-form">
+        <form>
+        <div class="modal-form">
             <div class="modal-form-div-div">
             <label class="modal-form-label" for="user-name">
               Name
@@ -550,10 +551,10 @@
               <label class="modal-form-label" for="user-comment">
                 Comment
               </label>
-              <textarea class="modal-form-label-textarea" id="user-comment" name="user-comment" id="user-comment" rows="" cols="" placeholder="Text input"></textarea>
+              <textarea class="modal-form-label-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
             </div>
-            <div class="form-div-div-input-and-button"
-            <input class="visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true"></input>
+            <div>
+            <input class="visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true">
               <label class="modal-form-label" for="user-privacy">
                 <span class="span_privacy-policy">
                   <svg class="modal_form_label_span_svg" width="10" height="8">
@@ -565,6 +566,7 @@
               </label>
             </div>
             <button class="modal-button-send">Send</button>
+            </div>
         </form>
       </div>
     </div>
