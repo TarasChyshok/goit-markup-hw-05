@@ -655,7 +655,7 @@ body {
 
 .modal-button-close:hover, .modal-button-close:focus {
   background-color:#404bbf;
-  fill:#fff;
+  fill:#ffffff;
   border:none;
 
 }
@@ -693,7 +693,7 @@ body {
 }
 
 .modal-form-div-div{
-  margin-bottom:16px;
+  margin-bottom:8px;
 }
 
 .modal-form-label {
@@ -726,7 +726,7 @@ body {
   border-color:#4d5ae5;
 }
 
-.modal-form-label-input:hover .modal-form-div-div-svg{
+.modal-form-label-input:focus .modal-form-div-div-svg{
   fill:#4d5ae5;
 }
 
@@ -745,7 +745,7 @@ body {
 .modal-form-label-textarea {
   width:100%;
   background-color:transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border:1px solid rgba(46, 47, 66, 0.4);
   border-color:#2E2F42;
   border-radius:4px;
   outline:transparent;
@@ -807,7 +807,7 @@ body {
   display:block;
   min-width:169px;
   height:56px;
-  font-family:'Roboto';
+  font-family:"Roboto";
   font-size:16px;
   font-weight:500;
   line-height:1.5;
