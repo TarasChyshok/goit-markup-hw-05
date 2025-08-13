@@ -621,7 +621,18 @@ body {
 
 .icons-social {
   fill: #f4f4fd;
-  stroke: #000000;
+  width:40px;
+  height:40px;
+}
+
+.icons-social-use{
+  width:16px;
+  height:16px;
+}
+
+.icons-social-use-footer{
+  width:24px;
+  height:24px;
 }
 
         /* modal window */
@@ -647,7 +658,7 @@ body {
 .modal-overlay::backdrop{
   background-color:rgba(46, 47, 66, 0.4);
   width:100vw;
-  height:100vw;
+  height:100vh;
 }
 
 .modal-overlay.is-open {
@@ -656,7 +667,7 @@ body {
 }
 
 .modal {
-  position:absolute;
+  position:relative;
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);
@@ -718,9 +729,10 @@ body {
   letter-spacing:0.02em;
   color:#2e2f42;
   margin-bottom:16px;
-
+  max-width:360px;
+  max-height:24px;
 }
-
+ 
 .modal-form {
   margin:16px 0 0;
   display:flex;
@@ -747,6 +759,8 @@ body {
 
 .div-for-input-and-svg{
   position:relative;
+  fill:#4d5ae5;
+  stroke:#4d5ae5;
 }
 
 .modal-form-label-input {
