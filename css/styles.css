@@ -211,14 +211,12 @@ body {
 
 .visually-hidden {
   position: absolute;
-  top:0;
-  left:0;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
+  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -711,13 +709,13 @@ body {
 
 .modal-button-close:hover {
   background-color:#404bbf;
-  fill:#ffffff;
+  fill: #ffffff;
   border:none;
 }
 
 .modal-button-close:focus {
   background-color:#404bbf;
-  fill:#ffffff;
+  fill: #ffffff;
   border:none;
 }
 
@@ -758,7 +756,7 @@ body {
   margin-bottom:8px;
 }
 
-.modal-form-div-div:nth-child(:last-child){
+.modal-form-div-div-textarea{
   margin-bottom:16px;
 }
 
@@ -813,7 +811,7 @@ body {
 .modal-form-label-textarea {
   width:100%;
   background-color:transparent;
-  border:1px solid rgba(46,47,66,0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-color:#2E2F42;
   border-radius:4px;
   outline:transparent;
@@ -839,13 +837,17 @@ body {
 }
 
 .form_div_privacy-policy {
-  margin-bottom:16px;
+  margin-bottom:24px;
+}
+
+.visually-hidden-checkbox {
+  margin-bottom:24px;
 }
 
 .visually-hidden-checkbox:checked .span-privacy-policy{
   background-color:#404bbf;
   border:none;
-  fill:#f4f4fd;
+  fill:#F4F4FD;
 }
 
 .span_privacy-policy{
@@ -867,7 +869,7 @@ body {
 }
 
 .modal-button-send {
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   display:block;
   min-width:169px;
   height:56px;
