@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-checkbox-active {
+  width: 1.25em;
+}
+
 .icon-letter {
   width: 1.3330078125em;
 }
