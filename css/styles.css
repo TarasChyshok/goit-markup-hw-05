@@ -712,7 +712,8 @@ body {
   border:none;
 }
 
-.modal-button-close:hover, .modal-button-close:focus {
+.modal-button-close:hover .modal-button-close-svg, 
+.modal-button-close:focus .modal-button-close-svg{
   fill: #ffffff;
 }
 
