@@ -707,13 +707,13 @@ body {
   justify-items:right;
 }
 
-.modal-button-close:hover {
+.modal-button-close:hover .modal-button-close-svg {
   background-color:#404bbf;
   fill: #ffffff;
   border:none;
 }
 
-.modal-button-close:focus {
+.modal-button-close:focus .modal-button-close-svg{
   background-color:#404bbf;
   fill: #ffffff;
   border:none;
@@ -811,7 +811,7 @@ body {
 .modal-form-label-textarea {
   width:100%;
   background-color:transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border:1px solid rgba(46, 47, 66, 0.4);
   border-color:#2E2F42;
   border-radius:4px;
   outline:transparent;
@@ -844,7 +844,7 @@ body {
   margin-bottom:24px;
 }
 
-.visually-hidden-checkbox:checked .span-privacy-policy{
+.visually-hidden:checked + .modal-form-label .span-privacy-policy{
   background-color:#404bbf;
   border:none;
   fill:#F4F4FD;
@@ -869,7 +869,7 @@ body {
 }
 
 .modal-button-send {
-  font-family: "Roboto", sans-serif;
+  font-family:"Roboto", sans-serif;
   display:block;
   min-width:169px;
   height:56px;
