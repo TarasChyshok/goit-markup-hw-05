@@ -707,15 +707,17 @@ body {
   justify-items:right;
 }
 
-.modal-button-close:hover .modal-button-close-svg {
+.modal-button-close:hover {
   background-color:#404bbf;
-  fill: #ffffff;
   border:none;
 }
 
-.modal-button-close:focus .modal-button-close-svg{
-  background-color:#404bbf;
+.modal-button-close:hover, .modal-button-close:focus {
   fill: #ffffff;
+}
+
+.modal-button-close:focus {
+  background-color:#404bbf;
   border:none;
 }
 
@@ -812,7 +814,6 @@ body {
   width:100%;
   background-color:transparent;
   border:1px solid rgba(46, 47, 66, 0.4);
-  border-color:#2E2F42;
   border-radius:4px;
   outline:transparent;
   resize:none;
@@ -844,7 +845,7 @@ body {
   margin-bottom:24px;
 }
 
-.visually-hidden:checked + .modal-form-label .span-privacy-policy{
+.visually-hidden:checked + .modal-form-label .span_privacy-policy{
   background-color:#404bbf;
   border:none;
   fill:#F4F4FD;
@@ -873,7 +874,6 @@ body {
   display:block;
   min-width:169px;
   height:56px;
-  font-family:"Roboto";
   font-size:16px;
   font-weight:500;
   line-height:1.5;
