@@ -753,6 +753,10 @@ body {
   margin-bottom:4px;
 }
 
+.modal-form-label:last-child{
+  margin-bottom:0;
+}
+
 .div-for-input-and-svg{
   position:relative;
   fill:#4d5ae5;
@@ -776,11 +780,8 @@ body {
   border-color:#4d5ae5;
 }
 
-.modal-form-label-input:focus .modal-form-div-div-svg{
-  fill:#4d5ae5;
-}
-
 .modal-form-div-div-svg{
+  fill:#2E2F42;
   position:absolute;
   left:16px;
   top:50%;
@@ -788,7 +789,7 @@ body {
   transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-label-input:focus .modal-form-div-div-svg{
+.modal-form-label-input:focus + .modal-form-div-div-svg{
   fill:#4d5ae5;
 }
 
@@ -839,6 +840,7 @@ body {
   justify-content:center;
   fill:transparent;
 
+  margin-right:8px;
   width:16px;
   height:16px;
   border:1px solid rgba(46,47,66,0.4);
