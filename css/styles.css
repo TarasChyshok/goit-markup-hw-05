@@ -33,6 +33,7 @@ button {
   max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding:0 15px;
 }
 
 body {
@@ -99,7 +100,7 @@ body {
   display: block;
   width: 100%;
   position: absolute;
-  top:0;
+  bottom:0;
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -160,7 +161,7 @@ body {
     url(../images/img-name.jpeg);
   background-size: cover;
   margin:0 auto;
-  max-width: 100%;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -206,10 +207,6 @@ body {
 /* section benefits */
 .section-benefits {
   padding: 120px 0;
-}
-
-.section-benefits .container {
-  padding:0 15px;
 }
 
 .visually-hidden {
@@ -320,6 +317,11 @@ body {
 .team-name {
   text-align: center;
   margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: #2e2f42;
 }
 
 .team-p {
@@ -385,7 +387,6 @@ body {
 .portfolio-li {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border:#E7E9FC solid 1px;
 }
 
 .portfolio-li:hover .overflow-portfolio-p {
@@ -397,16 +398,9 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-li-div {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
 .portfolio-li-text {
-  position: relative;
-  overflow: hidden;
-  padding:32px 0 32px 16px;
+  padding:32px 16px;
+  border: 0px 1px 1px 1px solid #e7e9fc;
 }
 
 .portfolio-h-and-p-div{
@@ -459,7 +453,6 @@ body {
 .footer .container {
   display: flex;
   align-items: baseline;
-  padding:0 15px;
 }
 
 .footer-logoandp {
@@ -476,8 +469,7 @@ body {
 }
 
 .footer-div-social-media {
-  margin-left:120px;
-  margin:0 auto;
+  margin-right:auto;
 }
 
 .footer .social-media-ul {
